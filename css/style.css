@@ -636,3 +636,62 @@ font-weight: bold;
     color: #121212;
     transform: translateY(-5px);
 }
+/* //////////////////////////////////////////////////////////// */
+/* =========================
+   Responsive Design
+   ========================= */
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+    header {
+        padding: 15px 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+
+    /* Hero */
+    .hero {
+        min-height: 100vh;
+        padding: 100px 25px 40px;
+        text-align: right;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .hero p {
+        font-size: 18px;
+        line-height: 1.7;
+    }
+
+
+    /* Hero Buttons */
+    .hero-buttons {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .hero-buttons .btn {
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+}
