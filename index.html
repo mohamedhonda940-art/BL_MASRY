@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>بالمصري | BelMasry</title>
 
-    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/hero.jpg" type="image/x-icon">
 
-    <!-- Font Awesome -->
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
 </head>
 
 <body>
@@ -23,22 +23,34 @@
         <div class="container">
 
             <nav>
-                <div class="logo">
 
+                <div class="logo">
                     <img src="img/logo.png" alt="logo">
                 </div><!-- logo -->
+
                 <ul class="nav-links">
                     <li><a href="#hero">الرئيسية</a></li>
-                    <li><a href="#">التصنيفات</a></li>
-                    <li><a href="#categories">المنتجات</a></li>
-                    <li><a href="#brands">الماركت</a></li>
+                    <li><a href="#section-title">التصنيفات</a></li>
+                    <li><a href="#section-title">المنتجات</a></li>
+                    <li><a href="#brands">الماركات</a></li>
                     <li><a href="#contact">تواصل معنا</a></li>
                 </ul>
-                <a href="#" class="btn">تسوق الان</a>
+                <a href="#brands" class="btn  btnh">تسوق الان</a>
+                <div class="iconns">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                    <a href="#section-title"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+
+
             </nav>
+
         </div><!-- container -->
+
     </header>
-    <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    
+    <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
      <section class="hero" id="hero">
 
         <div class="overlay"></div><!-- overlay -->
@@ -51,19 +63,21 @@
                 <h1>بالمصري</h1>
                 <h2>ادعم المنتج  المصري <br>ادعم صناعتنا</h2>
                 <p class="hero-text">منصه تجمع افضل المنتجات المحليه المصرية وتساعدك هلي اكتشاف ماركات مصرية بجودة عالية</p>
+                
                 <div class="hero-buttons">
-
-                    <a href="#" class="btn">تسوق الان</a>
-                    <a href="#" class="btn2">استكشف</a>
-
+                    <a href="#brands" class="btn">تسوق الان</a>
+                    <a href="#about" class="btn2">استكشف</a>
                 </div><!-- hero-buttons -->
+
             </div><!-- hero-content -->
 
         </div><!-- container -->
 
      </section><!-- hero -->
-     <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
-      <section class="about" id="about">
+
+     <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\\\\\\\-->
+      
+     <section class="about" id="about">
 
         <div class="about-images">
             <img src="img/hwo.png" alt="hwo">
@@ -75,23 +89,24 @@
             <p>بالمصري هي منصه بتجمع افضل المنتجات المصريه والعلامات التجاريه المصرية في مكان واحد وبتساعدك تستكشف منتجات محليه بجوده عاليه وندعم اصحاب المشاريع والصناعات المصرية </p>
            
             <div class="about-feature">
+
                 <div class="feature">
-                    <span>❤️</span>
+                    <span><i class="fa-solid fa-heart  icon"></i></span>
                     <p>منتجات مصرية اصليه</p>
                 </div><!-- feature -->
 
                  <div class="feature">
-                    <span>🏺</span>
+                    <span><i class="fa-solid fa-ankh  cal"></i></span>
                     <p>ندعم الحرف و الصناعات المصرية</p>
                 </div><!-- feature -->
 
                  <div class="feature">
-                    <span>✨</span>
+                    <span><i class="fa-solid fa-star  star"></i></span>
                     <p>جوده مختاره بعنايه </p>
                 </div><!-- feature -->
 
                  <div class="feature">
-                    <span>🫱🏽‍🫲🏾</span>
+                    <span><i class="fa-solid fa-handshake  hand"></i></span>
                     <p>دعم اصحاب المشاريع المحليه</p>
                 </div><!-- feature -->
                 
@@ -100,16 +115,18 @@
         </div><!-- about-text -->
 
       </section><!-- about -->
-      <!-- //////////////////////////////////////////////////////////////////// -->
+
+      <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
        <section class="categories" id="categories">
 
-        <div class="section-title">
-            <span>اكتشف المزيد</span>
+        <div class="section-title" id="section-title">
+            <p class="first">اكتشف المزيد</p>
             <h2>التصنيفات</h2>
             <p>اكتشف منتجات مصريه من مختلف المجالات</p>
         </div><!-- section-title -->
 
-        <div class="categories-container">
+        <div class="categories-container" id="categories-container">
 
             <div class="category-card">
 
@@ -121,7 +138,9 @@
                 </div><!-- category-overlay -->
 
             </div><!-- category-card -->
-<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+            <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
              <div class="category-card">
 
                 <img src="img/pro2.png" alt="pro 2">
@@ -132,7 +151,9 @@
                 </div><!-- category-overlay -->
 
             </div><!-- category-card -->
+
             <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
              <div class="category-card">
 
                 <img src="img/pro3.png" alt="pro 3">
@@ -143,7 +164,9 @@
                 </div><!-- category-overlay -->
 
             </div><!-- category-card -->
+
             <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
              <div class="category-card">
 
                 <img src="img/pro 1 4.png" alt="pro 1 4">
@@ -154,7 +177,9 @@
                 </div><!-- category-overlay -->
 
             </div><!-- category-card -->
-            <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+            <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
             <div class="category-card">
 
                 <img src="img/pro6.png" alt="pro 6">
@@ -165,7 +190,9 @@
                 </div><!-- category-overlay -->
 
             </div><!-- category-card -->
-            <!-- \\\\\\\\\\\ -->
+
+            <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
              <div class="category-card">
 
                 <img src="img/pro7.png" alt="pro 7">
@@ -173,12 +200,16 @@
                 <div class="category-overlay">
                     <h3>عطور</h3>
                     <p>عطور مستخلصه من الاعشاب </p> 
-             
+                </div><!-- category-overlay -->
+
         </div><!-- categories-container -->
 
+
        </section><!-- categories -->
-       <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
-        <!-- Brands Section -->
+
+
+       <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
 
 <section class="brands" id="brands">
 
@@ -199,77 +230,62 @@
         <div class="brand-card">
 
             <div class="brand-image">
-
-                <img src="img/WhatsApp Image 2026-08-07 at 6.27.20 PM.jpeg" alt="نِفرتيتي">
-
-            </div>
+                <img src="img/prand3.jpeg" alt="نِفرتيتي">
+            </div><!-- brand-img -->
 
             <div class="brand-info">
-
                 <h3>نِفرتيتي</h3>
-
                 <p> منتجات مصرية مستوحاة من الطبيعة
                     بلمسة عصرية.</p>
-
                 <a href="#">اكتشف البراند</a>
+            </div><!-- brand-info -->
 
-            </div>
-
-        </div>
+        </div><!-- brand-card -->
 
 
-        <!--//////////////////////////////////////////////////////////////// -->
+        <!--/////////////////////////////////////////////// -->
 
         <div class="brand-card">
 
             <div class="brand-image">
-
-                <img src="img/prand3.jpeg" alt="راوية">
-
-            </div>
+                <img src="img/prand2.jpeg" alt="راوية">
+            </div><!-- brand-img -->
 
             <div class="brand-info">
-
                 <h3>راوية</h3>
-
                 <p> أزياء مصرية تجمع بين الأصالة
                     والتصميم العصري. </p>
-
                 <a href="#">اكتشف البراند</a>
+            </div><!-- brand-info -->
 
-            </div>
-
-        </div>
+        </div><!-- brand-card -->
 
 
-        <!--/////////////////////////////////////////////////////////// -->
+        <!--////////////////////////////////////////////// -->
 
         <div class="brand-card">
 
             <div class="brand-image">
-
-                <img src="img/prand2.jpeg" alt="بِنية">
-
-            </div>
+                <img src="img/WhatsApp Image 2026-08-07 at 6.27.20 PM.jpeg" alt="بِنية">
+            </div><!-- brand-img -->
 
             <div class="brand-info">
-
                 <h3>بِنية</h3>
-
                 <p> منتجات وحرف يدوية مصرية
                     بجودة مميزة.</p>
-
                 <a href="#">اكتشف البراند</a>
+            </div><!-- brand-info -->
 
-            </div>
+        </div><!-- brand-card -->
 
-        </div>
 
     </div><!-- brands-container -->
 
+
 </section><!-- brands -->
 
-<!-- //////////////////////////////////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+
 
 <section class="contact" id="contact" >
 
@@ -278,46 +294,57 @@
         <h2>يسعدنا تواصلك معنا</h2>
         <p>لو عندك أي استفسار أو اقتراح، تواصل مع فريق بالمصري</p>
     </div><!-- section-title -->
-
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
     <div class="contact-container">
 
         <div class="contact-info">
 
             <div class="contact-box">
-                <span>📍</span>
+                <span><i class="fa-solid fa-location-dot   loc"></i></span>
+
                 <div>
                     <h3>العنوان</h3>
                     <p>شارع الرفاعي المعرض طنطا محافظه الغربية</p>
                 </div>
-            </div>
+
+            </div><!-- contact-box -->
+
+            <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 
             <div class="contact-box">
-                <span>📞</span>
+                <span><i class="fa-solid fa-phone   mob"></i></span>
+
                 <div>
                     <h3>الهاتف</h3>
-                    <p>+20 10 352 231</p>
+                    <p>+20 10 352 23150</p>
                 </div>
-            </div>
+
+            </div><!-- contact-box -->
+
+        <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 
             <div class="contact-box">
-                <span>✉️</span>
+                <span><i class="fa-solid fa-envelope"></i></span>
                 <div>
                     <h3>البريد الإلكتروني</h3>
                     <p>mhnd@balmasry.com</p>
                 </div>
-            </div>
+
+            </div><!-- contact-box -->
 
         </div><!-- contact-info -->
 
+        <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
         <form class="contact-form">
 
-            <input type="text" placeholder="الاسم">
+            <input type="text" name="name" placeholder="الاسم">
 
-            <input type="email" placeholder="البريد الإلكتروني">
+            <input type="email" name="email" placeholder="البريد الإلكتروني">
 
-            <input type="text" placeholder="الموضوع">
+            <input type="text" name="titel" placeholder="الموضوع">
 
-            <textarea placeholder="اكتب رسالتك هنا"></textarea>
+            <textarea name="massage" placeholder="اكتب رسالتك هنا"></textarea>
 
             <button type="submit">إرسال الرسالة</button>
 
@@ -326,7 +353,7 @@
     </div><!-- contact-container -->
 
 </section> <!-- contact -->
-<!-- ////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 
  <footer class="footer" >
 
@@ -337,29 +364,31 @@
             <p> بالمصري منصة تجمع أفضل المنتجات
  والعلامات التجارية المصرية في مكان واحد.</p>
         </div><!-- footer-box -->
-
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
         <div class="footer-box">
             <h3>روابط سريعة</h3>
             <a href="#hero">الرئيسية</a>
             <a href="#categories">المنتجات</a>
-            <a href="#">التصنيفات</a>
+            <a href="#categories">التصنيفات</a>
             <a href="#brands">الماركات</a>
         </div><!-- footer-box -->
-
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
         <div class="footer-box">
             <h3>تواصل معنا</h3>
-            <p>📍 الغربية مصر</p>
-            <p>📞 +20 10 352 231 50</p>
-            <p>✉ mhnd@balmasry.com</p>
+            <p><i class="fa-solid fa-map-pin"></i> الغربية مصر</p>
+            <p><i class="fa-solid fa-phone"></i> +20 10 352 231 50</p>
+            <p><i class="fa-solid fa-envelope"></i> mhnd@balmasry.com</p>
         </div><!-- footer-box -->
-
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
         <div class="footer-box">
             <h3>تابعنا</h3>
             <div class="social">
-                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-                <a href="https://web.whatsapp.com/" target="_blank">WhatsApp</a>
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a><br>
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a><br>
+                <a href="https://web.whatsapp.com/" target="_blank">WhatsApp</a><br>
+                <a href="https://x.com/" target="_blank">X twitter</a>
             </div><!-- social -->
+
         </div><!-- footer-box -->
 
     </div>  <!-- footer-container -->
@@ -367,22 +396,23 @@
         <p>© 2026 بالمصري - جميع الحقوق محفوظة</p>
     </div>
 
-    <!-- Footer Bottom -->
+    <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 <div class="footer-bottom">
 
     <div class="footer-logo">
         <img src="img/logo.png" alt="بالمصري">
-    </div>
+    </div><!-- footer-logo -->
 
 
     <div class="social-icons">
-        <a href="https://www.facebook.com/" target="_blank">f</a>
-        <a href="#">𝕏</a>
-        <a href="#">in</a>
-        <a href="#">▶</a>
-    </div>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+    </div><!-- social-icons -->
 
-</div>
+</div><!-- footer-bottom -->
 
 </footer>
 
